@@ -39,12 +39,12 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Install postcss
-        run: sudo npm i -D postcss postcss-cli
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Install postcss
+        run: npm install -g postcss postcss-cli autoprefixer
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
