@@ -1,3 +1,43 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "introduction"
+DefaultContentLanguage = "en"
+title = 'Evaluation Awareness in Language Models'
+
+[params]
+    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
+    favicon                      = "/img/fav.ico"
+    showMenu                     = true
+    showRSSButton                = false
+    fadeIn                       = false
+    fadeInIndex                  = false
+    dateFormat                   = "2006-01-02"
+    email                        = "edkins@gmail.com"
+
+    # Configure the home page
+    [params.home]
+        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
+        showLatest               = true                    # Show latest blog post summary
+        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
+        allPostsArchiveFormat    = true                    # show all posts in an archive format
+        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        localTime                = true                    # Show your current local time in contact section
+        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeFormat               = "en-US"                 # Language specific format to use
+    [params.projects]
+        useTwoColumns            = false                   # Use a layout with two columns instead of three
+
+#    [[params.social]]
+#        url   = "https://discord.gg/pPaEMSxTJf"
+#        icon  = "vr-cardboard" # icon name without the 'fa-'
+#        icon_pack = "fab"
+
+[languages]
+    [languages.en]
+        languageName     = "English"
+        languageCode     = "en-us"
+        contentDir       = "content/en"
+        weight           = 0
+        title            = "Evaluation Awareness in Language Models"
+        [languages.en.params]
+            description  = "Website Description"   # Max 160 characters show in search results
+            # footerText   = ""                      # Text to override default footer text (markdown allowed)
