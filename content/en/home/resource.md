@@ -12,7 +12,7 @@ Igor Ivanov, Danil Kadochnikov
 
 --
 
-2025-03-23 [\[Paper\] Evaluation Faking: Unveiling Observer Effects in Safety Evaluation of Frontier AI Systems](https://arxiv.org/abs/2505.17815)
+2025-05-23 [\[Paper\] Evaluation Faking: Unveiling Observer Effects in Safety Evaluation of Frontier AI Systems](https://arxiv.org/abs/2505.17815)
 
 Yihe Fan, Wenqi Zhang, Xudong Pan, Min Yang
 
